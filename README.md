@@ -252,17 +252,3 @@ Important limitations:
 See `design/evaluation_design.md` for the implemented design and
 planned final-evaluation controls.
 
-## Before submission
-
-- Copy the executed notebook and final GEE scripts into the repository.
-- Add the report under `reports/`.
-- Synchronize older status files with the completed baseline evidence.
-- Record each teammate's contribution and short evaluation review.
-- Record the independent rerun if completed.
-- Keep incomplete checklist items explicitly marked incomplete.
-- Confirm instructor and TA access to the repository.
-- Do not commit credentials, private partner data, or raw imagery
-  without checking applicable permissions.
-
-Do not treat Git publication as evidence that the independent rerun
-or protected evaluation requirements have been completed.
