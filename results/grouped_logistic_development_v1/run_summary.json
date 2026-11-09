@@ -1,0 +1,12 @@
+{
+  "samples": 10,
+  "development_groups": 2,
+  "total_runtime_seconds": 21.865820807001,
+  "all_fits_converged": true,
+  "development_assignment_sha256": "a975ef30a4c48207650cea3281bb5a6bb12cf7e29ca202b226e77fd94087db40",
+  "out_of_fold_prediction_files": 10,
+  "independent_teammate_rerun": "NOT_RUN",
+  "protected_test_evaluation": "NOT_RUN",
+  "ecological_label_verification": "NOT_COMPLETE",
+  "independent_observation_sufficiency": "NOT_ESTABLISHED"
+}

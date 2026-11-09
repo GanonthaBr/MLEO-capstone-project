@@ -1,0 +1,9 @@
+item,status,evidence
+Amazonia access and grid/mask audit,COMPLETED,checks/amazon_001_quality.json
+Data file manifest and hashes,COMPLETED,data/data_manifest.csv
+Prior pilot access disclosure,RECORDED,design/pilot_access_disclosure.csv
+Evaluation design,DRAFT,design/evaluation_design.md
+Independent observation sufficiency,NOT MET,One inspected source spatial location
+Frozen protected assignments,NOT MET,No protected manifest created
+Grouped out-of-fold baseline,NOT RUN,
+Independent teammate rerun,NOT RUN,reproducibility/independent_rerun.md

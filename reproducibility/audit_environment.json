@@ -1,0 +1,7 @@
+{
+  "python": "3.13.18",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "numpy": "2.4.6",
+  "pandas": "2.2.3",
+  "rasterio": "1.5.2"
+}

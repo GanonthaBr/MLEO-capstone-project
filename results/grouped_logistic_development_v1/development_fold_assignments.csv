@@ -1,0 +1,11 @@
+sample_id,candidate_group_id,development_group,held_out_fold,role,stable_pixels,conversion_pixels
+amazon_B01_C01_r2,B01,DG01,DG01,development_only,21727,1504
+amazon_B01_C02_r2,B01,DG01,DG01,development_only,20734,594
+amazon_B01_C03_r2,B01,DG01,DG01,development_only,23324,621
+amazon_B01_C04_r2,B01,DG01,DG01,development_only,32720,601
+amazon_B01_C05,B01,DG01,DG01,development_only,16254,145
+amazon_B01_C06_r2,B01,DG01,DG01,development_only,19060,561
+amazon_B01_C07_r2,B01,DG01,DG01,development_only,24204,655
+amazon_B01_C08_r2,B01,DG01,DG01,development_only,42788,209
+amazon_B01_C09_r2,B01,DG01,DG01,development_only,20368,254
+amazon_B02_C06_r2,B02,DG02,DG02,development_only,48173,116

@@ -1,0 +1,145 @@
+{
+  "sample_id": "amazon_001",
+  "checked_at_utc": "2026-11-09T20:36:40.587909+00:00",
+  "checks": {
+    "expected_band_counts": true,
+    "matching_shapes": true,
+    "matching_crs": true,
+    "matching_transforms": true,
+    "expected_patch_dimensions": true,
+    "expected_pixel_size": true,
+    "joint_mask_consistent": true,
+    "allowed_label_values": true
+  },
+  "crs": "EPSG:32721",
+  "transform": [
+    30.0,
+    0.0,
+    698910.0,
+    0.0,
+    -30.0,
+    9528750.0
+  ],
+  "shape": [
+    224,
+    224
+  ],
+  "bounds": [
+    698910.0,
+    9522030.0,
+    705630.0,
+    9528750.0
+  ],
+  "before_date": "2021-06-30",
+  "after_date": "2023-07-25",
+  "before_image_id": "NASA/HLS/HLSS30/v002/T21MXR_20210630T140059",
+  "after_image_id": "NASA/HLS/HLSS30/v002/T21MXR_20230725T135711",
+  "joint_valid_fraction": 1.0,
+  "total_pixels": 50176,
+  "eligible_pixels": 32650,
+  "stable_forest_pixels": 29331,
+  "conversion_pixels": 3319,
+  "ignored_or_invalid_pixels": 17526,
+  "conversion_fraction_among_eligible": 0.10165390505359878,
+  "source_spatial_locations": 1,
+  "independent_units_sufficiency": "Insufficient for independent out-of-fold evaluation.",
+  "reflectance_summary": {
+    "before": {
+      "blue": {
+        "min": 0.01140000019222498,
+        "p02": 0.014800000004470348,
+        "median": 0.01850000023841858,
+        "p98": 0.03629999980330467,
+        "max": 0.07240000367164612
+      },
+      "green": {
+        "min": 0.020899999886751175,
+        "p02": 0.030300000682473183,
+        "median": 0.039000000804662704,
+        "p98": 0.07169999927282333,
+        "max": 0.1136000007390976
+      },
+      "red": {
+        "min": 0.012000000104308128,
+        "p02": 0.01759999990463257,
+        "median": 0.022299999371170998,
+        "p98": 0.05869999900460243,
+        "max": 0.1315000057220459
+      },
+      "nir": {
+        "min": 0.13420000672340393,
+        "p02": 0.23205000162124634,
+        "median": 0.30489999055862427,
+        "p98": 0.40504997968673706,
+        "max": 0.5019999742507935
+      },
+      "swir1": {
+        "min": 0.07199999690055847,
+        "p02": 0.10625000298023224,
+        "median": 0.1429000049829483,
+        "p98": 0.23045000433921814,
+        "max": 0.3440000116825104
+      },
+      "swir2": {
+        "min": 0.0284000001847744,
+        "p02": 0.04039999842643738,
+        "median": 0.05420000106096268,
+        "p98": 0.1160999983549118,
+        "max": 0.2290000021457672
+      }
+    },
+    "after": {
+      "blue": {
+        "min": 0.009200000204145908,
+        "p02": 0.012199999764561653,
+        "median": 0.01590000092983246,
+        "p98": 0.04809999838471413,
+        "max": 0.13529999554157257
+      },
+      "green": {
+        "min": 0.021800000220537186,
+        "p02": 0.02930000051856041,
+        "median": 0.03869999945163727,
+        "p98": 0.07819999754428864,
+        "max": 0.2069000005722046
+      },
+      "red": {
+        "min": 0.012500000186264515,
+        "p02": 0.016100000590085983,
+        "median": 0.0210999995470047,
+        "p98": 0.09030000120401382,
+        "max": 0.2572000026702881
+      },
+      "nir": {
+        "min": 0.08789999783039093,
+        "p02": 0.2549000084400177,
+        "median": 0.3310000002384186,
+        "p98": 0.41909998655319214,
+        "max": 0.5189999938011169
+      },
+      "swir1": {
+        "min": 0.08330000191926956,
+        "p02": 0.11739999800920486,
+        "median": 0.15639999508857727,
+        "p98": 0.3037000000476837,
+        "max": 0.39989998936653137
+      },
+      "swir2": {
+        "min": 0.03099999949336052,
+        "p02": 0.04360000044107437,
+        "median": 0.05950000137090683,
+        "p98": 0.18060000240802765,
+        "max": 0.28700000047683716
+      }
+    }
+  },
+  "limitations": [
+    "Grid equality does not prove subpixel image registration.",
+    "Fmask validity does not prove complete absence of atmospheric effects.",
+    "Annual labels do not identify exact disturbance dates.",
+    "Image interval is 2021–2023; selected label transition is 2021–2022.",
+    "Only stable forest and persistent agricultural conversion are labeled.",
+    "MapBiomas labels are model-derived and remain provisional.",
+    "One inspected source patch is not an independent evaluation dataset."
+  ]
+}
