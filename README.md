@@ -134,6 +134,14 @@ https://github.com/mapbiomas/user-toolkit
 
 ## Google Drive layout
 
+Because the team did not have enough local storage to keep the imagery,
+the shared source files are stored in Bruno's Google Drive. He has shared
+them with the team. Before running the notebook, each collaborator must
+make sure the shared files are organized in their own Google Drive under
+the folder names below; Colab mounts that user's Drive, not Bruno's
+Drive. Copy the shared files into the matching folders in `MyDrive` so
+the notebook can find them.
+
 The notebook expects these folders directly under `MyDrive`:
 
 - `Akagera_HLS_Pilot/`
@@ -159,7 +167,8 @@ Use `checks/amazon_stage2_recovery_audit.csv` for the completed audit.
 
 1. Clone the repository and open `Forest_Change_Pilot.ipynb` in Colab.
 2. Mount Google Drive.
-3. Make the source exports available under the folder names above.
+3. Copy the shared source files from Bruno's Drive into your own mounted
+   `MyDrive`, preserving the folder names and file layout above.
 4. Install the notebook dependencies.
 5. Run the complete cell headed:
    `AMAZONIA STAGE 2 — AUDIT ORIGINAL + RECOVERED EXPORTS`.
@@ -251,4 +260,3 @@ Important limitations:
 
 See `design/evaluation_design.md` for the implemented design and
 planned final-evaluation controls.
-
